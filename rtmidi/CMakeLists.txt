@@ -1,0 +1,1 @@
+add_library(rtmidi RtMidi.h RtMidi.cpp)

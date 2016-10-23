@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nickbenson/dev/magikarp/rtmidi/RtMidi.cpp
+RtMidi.h
+/Users/nickbenson/dev/magikarp/rtmidi/RtMidi.h
+sstream
+-
+CoreMIDI/CoreMIDI.h
+-
+CoreAudio/HostTime.h
+-
+CoreServices/CoreServices.h
+-
+pthread.h
+-
+sys/time.h
+-
+alsa/asoundlib.h
+-
+windows.h
+-
+mmsystem.h
+-
+jack/jack.h
+-
+jack/midiport.h
+-
+jack/ringbuffer.h
+-
+
+/Users/nickbenson/dev/magikarp/rtmidi/RtMidi.h
+exception
+-
+iostream
+-
+string
+-
+vector
+-
+
